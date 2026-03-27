@@ -275,7 +275,7 @@ function App() {
 							? userRole === ROLE_MASTER_ADMIN
 								? "אתה מחובר כ-Master Admin."
 								: "אתה מחובר כ-Event Admin."
-							: " כמשתמש רגיל ללא הרשאות מנהל."}
+							: "התחברת כמשתמש רגיל ללא הרשאות מנהל."}
 					</p>
 
 					{userRole === ROLE_MASTER_ADMIN && (
